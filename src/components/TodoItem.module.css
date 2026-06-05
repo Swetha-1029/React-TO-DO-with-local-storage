@@ -1,0 +1,127 @@
+.item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 16px;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color 0.2s, opacity 0.2s;
+  animation: slideIn 0.2s ease;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.item:hover {
+  border-color: #3a3a3a;
+}
+
+.completed {
+  opacity: 0.5;
+}
+
+.checkbox {
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  border-radius: 6px;
+  border: 2px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+  transition: all 0.15s;
+  color: #ffffff;
+}
+
+.checkbox:hover {
+  border-color: var(--accent);
+}
+
+.checked {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+}
+
+.text {
+  font-size: 15px;
+  color: var(--text);
+  display: block;
+  word-break: break-word;
+}
+
+.completed .text {
+  text-decoration: line-through;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.badge {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 100px;
+}
+
+.priority_low { background: #4ade8018; color: #4ade80; }
+.priority_medium { background: #facc1518; color: #facc15; }
+.priority_high { background: var(--red-dim); color: var(--red); }
+
+.date {
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.editInput {
+  width: 100%;
+  background: var(--surface-2);
+  border: 1.5px solid var(--accent);
+  border-radius: var(--radius-sm);
+  padding: 6px 10px;
+  color: var(--text);
+  font-size: 15px;
+  outline: none;
+}
+
+.actions {
+  display: flex;
+  gap: 4px;
+  opacity: 1;
+}
+
+.actionBtn {
+  width: 30px;
+  height: 30px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  background: var(--surface-2);
+  transition: all 0.15s;
+}
+
+.actionBtn:hover {
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+.deleteBtn:hover {
+  background: var(--red-dim);
+  color: var(--red);
+}
