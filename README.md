@@ -1,10 +1,10 @@
-# [PROJECT NAME]
+# REACT TO-DO WITH LOCAL STORAGE
 
-**Intern ID:** CITS3094 
-**Full Name:** Swetha C
-**Domain:** React.js web development
-**No. of Weeks:** 4 weeks
-**Project Name:** React To-do with local storage
+- **Intern ID:** CITS3094 
+- **Full Name:** Swetha C
+- **Domain:** React.js web development
+- **No. of Weeks:** 4 weeks
+- **Project Name:** React To-do with local storage
 
 ---
 
@@ -28,10 +28,10 @@ The app demonstrates core React concepts including useState, useEffect, useMemo,
 
 ## Tech Stack
 
-React 18
-Create React App (CRA)
-CSS Modules
-LocalStorage 
+- React 18
+- Create React App (CRA)
+- CSS Modules
+- LocalStorage 
 
 ## Project Structure
 
