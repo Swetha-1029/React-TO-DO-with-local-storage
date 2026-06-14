@@ -33,18 +33,4 @@ The app demonstrates core React concepts including useState, useEffect, useMemo,
 - CSS Modules
 - LocalStorage 
 
-## Project Structure
 
-```
-src/
-├── hooks/
-│   └── useLocalStorage.js
-├── components/
-│   ├── TodoInput.jsx
-│   ├── TodoItem.jsx
-│   ├── FilterBar.jsx
-│   └── StatsBar.jsx
-├── App.jsx
-├── main.jsx
-└── index.css
-```
